@@ -21,6 +21,7 @@ and [Places2](http://places2.csail.mit.edu/).
 
 ## 🚀Getting Started
 Download the pre-trained models using the following links and copy them into the `./ckpts` directory.
+
 [CNMural-MM](https://pan.baidu.com/s/1mIl-Y5z0YqC3UFG61gmMfA) | [CelebA-HQ](https://pan.baidu.com/s/1mIl-Y5z0YqC3UFG61gmMfA) | [Paris StreetView](https://pan.baidu.com/s/1mIl-Y5z0YqC3UFG61gmMfA) | [Places2](https://pan.baidu.com/s/1mIl-Y5z0YqC3UFG61gmMfA)
 ### Testing
 To test the model, you run the following code.
