@@ -11,11 +11,6 @@ pip install -e .
 ```
 ### Datasets
 **Image Dataset.** We construct a new multimodal mural inpainting dataset, named **[CNMural-MM](https://pan.baidu.com/s/1mIl-Y5z0YqC3UFG61gmMfA)**. 
-In addition, we evaluate our method on three widely-used public benchmarks, including 
-[CelebA-HQ](https://github.com/tkarras/progressive_growing_of_gans), 
-[Paris StreetView](https://github.com/pathak22/context-encoder), 
-and [Places2](http://places2.csail.mit.edu/).
-
 
 **Mask Dataset.** Irregular masks are obtained from Irregular Masks and classified based on their hole sizes relative to the entire image with an increment of 10%.
 
