@@ -67,25 +67,7 @@ def model_and_diffusion_defaults():
     Defaults for image training.
     """
     res = dict(
-        image_size=256,
-        num_channels=256,
-        num_res_blocks=2,
-
-        in_channels=2,
-        out_channels=1,
-
-        num_heads=4,
-        num_heads_upsample=-1,
-        num_head_channels=64,
-        attention_resolutions="32,16,8",
-        channel_mult="",
-        dropout=0.0,
-        class_cond=False,
-        use_checkpoint=False,
-        use_scale_shift_norm=True,
-        resblock_updown=True,
-        use_fp16=False,
-        use_new_attention_order=False,
+        
     )
     res.update(diffusion_defaults())
     return res
